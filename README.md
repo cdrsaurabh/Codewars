@@ -21,4 +21,18 @@ output = 0
 for i in dig:
     output =(output*10)+i # forming the number
 print("The descending order of your no.",temp,"is")
-print(output)```
+print(output)
+```
+## Question 2
+You get an array of numbers, return the sum of all of the positives ones.
+eg: list = [1,-7, 4 ,12]
+output = 1+4+12 = 17
+```python
+new_dig = [1,-4,7,12]
+leng = len(new_dig)
+new_num = 0
+for i in range(0,leng):
+    if (new_dig[i]>0):
+        new_num += new_dig[i]
+print(new_num)
+```
